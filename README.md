@@ -48,8 +48,8 @@ The set of variables that were estimated from these signals are:
 **std()**: Standard deviation  
 
 ## Description of the tidy DATA
-The features I selected for this tidy database are the subject id the activities and the measurements on the mean and standard deviation for each measurement.
-My data is considered tidy because, it contains the total number of subjects and the activities; each column is a different variable and each row represents an observation. The activities observations are labelled instead of numbers; The variables are labelled with descriptive variable names; for example : "TimeBodyAccjerkMagnitudeStd()" instead of tbodyaccjerkmagstd(), I replaced the leading t with Time and I switched the first letter of every word to capital letter. 
+The features I selected for this tidy database are the subject id, the activities and the measurements on the mean and standard deviation for each measurement.
+My data is considered tidy because, it contains the total number of subjects (30% in test set + 70% in train set=100%) and the activities; each column is a different variable and each row represents an observation. The activities observations are labelled instead of numbers; The variables are labelled with descriptive variable names; for example : "TimeBodyAccjerkMagnitudeStd()" instead of tbodyaccjerkmagstd(), I replaced the leading t with Time and I switched the first letter of every word to capital letter. 
 
 ### Description of abbreviations of measurements
 leading **Time** means it's a time domain signal.
